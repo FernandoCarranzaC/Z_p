@@ -6,13 +6,14 @@ import useFetch from '../../../hooks/useFetch'
 import { useNavigation } from "@react-navigation/native";
 
 export default function ListCategoria_CategoriasB() {
-  const {loading, data: categorias} = useFetch('http://192.168.1.65:3000/categorias')
+ const {loading, data: categorias} = useFetch(`http://192.168.1.65:3000/categorias/`)
   const navigation = useNavigation();
   return (
-
      <ScrollView style={styles.ScrollviewBody}>
-    {loading ? <Text>Cargando ...</Text> :
-  
+    {
+   
+    
+   loading ? <Text>Cargando ...</Text> :
    <FlatList
                     style={styles.list}
                     data={categorias}
@@ -32,6 +33,7 @@ export default function ListCategoria_CategoriasB() {
                 />         
                 }
    </ScrollView> 
+
   );
 }
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { View,StyleSheet } from "react-native";
-import GestDepto_Titulo from "../../Components/Administrador/GestDepto/GestDepto_Titulo";
-import GestDepto_Boton from "../../Components/Administrador/GestDepto/GestDepto_Boton";
-import GestDepto_ListDepto from "../../Components/Administrador/GestDepto/GestDepto_ListDepto";
+import GestDepto_Titulo from "../../Components/Administrador/GestDepto/GestDepto/GestDepto_Titulo";
+import GestDepto_Boton from "../../Components/Administrador/GestDepto/GestDepto/GestDepto_Boton";
+import GestDepto_ListDepto from "../../Components/Administrador/GestDepto/GestDepto/GestDepto_ListDepto";
 
 
 export default function GestionDepto() {

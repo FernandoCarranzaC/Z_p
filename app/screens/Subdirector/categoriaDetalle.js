@@ -9,7 +9,7 @@ import { useNavigation } from "@react-navigation/native";
 
 
 export default function categoriaDetalle({route}) {
-    const { id, claveCat,nombreCat } = route.params;
+    const {id, claveCat,nombreCat } = route.params;
     const navigation = useNavigation();
     //const { loading, data } = useFetch(`http://192.168.1.65:3000/categorias?filter[where][claveCat]=${claveCat}`)
     const { loading, data } = useFetch(`http://192.168.1.65:3000/categorias/${id}`)
