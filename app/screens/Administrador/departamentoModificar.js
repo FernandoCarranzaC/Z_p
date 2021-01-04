@@ -132,12 +132,12 @@ const styles = StyleSheet.create({
   marginBottom: 5
  },
  btnStyle: {
-   backgroundColor: "#CA6F1E",
+   backgroundColor: "#5DADE2",
 
  },
  btnContainer: {
    width: "70%",
-   marginBottom: 15
+   marginBottom: 10
  },
  viewBtn: {
    
